@@ -116,7 +116,7 @@ class Game:
 def create_player_account(player_name):
     player_classes = [Guardian, Caster, Fighter, Archer, Supporter]
     chosen_class = random.choice(player_classes)
-    return Player(player_name, 'Random')
+    return chosen_class(player_name)
 
 #Informasi Angka
 while True:
