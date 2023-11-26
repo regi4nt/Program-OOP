@@ -1,0 +1,16 @@
+{
+    "players": [
+        {
+            "name": "ren",
+            "class": "Random",
+            "attack": 5,
+            "health": 9
+        },
+        {
+            "name": "ryu",
+            "class": "Random",
+            "attack": 10,
+            "health": 3
+        }
+    ]
+}
